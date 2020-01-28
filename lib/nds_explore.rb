@@ -9,6 +9,6 @@ end
 
 def print_first_directors_movie_titles
   directors_database[0].each do |element|
-    puts element[0].fetch(0)
+    puts element
   end
 end
