@@ -8,7 +8,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  directors_database[0].each do |title|
-    puts #{title}
+  directors_database[0].each do |element|
+    puts element
   end
 end
